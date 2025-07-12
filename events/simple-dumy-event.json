@@ -1,0 +1,17 @@
+{
+  "version": "0",
+  "id": "test-event-id",
+  "detail-type": "EC2 Instance-terminate Lifecycle Action",
+  "source": "aws.autoscaling",
+  "account": "111122223333",
+  "time": "2025-07-03T12:34:56Z",
+  "region": "us-east-1",
+  "resources": [],
+  "detail": {
+    "LifecycleActionToken": "fake-token-123",
+    "AutoScalingGroupName": "demo-asg",
+    "LifecycleHookName": "termination-clone-logs-before",
+    "EC2InstanceId": "i-0123456789abcdef0",
+    "LifecycleTransition": "autoscaling:EC2_INSTANCE_TERMINATING"
+  }
+}
